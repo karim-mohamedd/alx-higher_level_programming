@@ -8,5 +8,5 @@ numbers = [
     49, 56, 57, 58, 59, 67, 68, 69, 78, 79,
 ]
 for number in numbers:
-    print(number, end=', ')
+    print('{:02d}'.format(number), end=', ')
 print(89)
